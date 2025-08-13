@@ -1,0 +1,16 @@
+โจทย์จาก : https://medium.com/@francesco.saviano87/mastering-javascript-arrays-10-progressive-exercises-b88e23d1b787
+
+Exercise 1: Array Reversal
+
+ผมเลือกใช้วิธีการบ้าน ๆ โดยการใช้ while loop ย้อนหลัง และอัดเข้าตัวแปร new_arr ด้วยวิธีการ new_arr.length 
+เพื่ออัพเดตตำแหน่งหลังสุด (ต้องการใช้แทน push method)
+
+Exercise 2: Sum of Elements
+ใช้วิธีการ for of ตามในคาบที่อาจารย์สอน แล้วตั้งตัวแปร let sum มา แล้วเอาแต่ละตัวที่ for of loop ได้ บวกเข้า sum = sum + <item ที่ loop ได้>
+
+(ข้ามมาข้อ 7 เลย เพราะว่า 3-6 เป็น basic หมดเลยครับ)
+
+Exercise 7: Removing Duplicates
+
+ใช้วิธีสร้าง function in_array(item, arr) ซึ่งจะ return ว่า item ที่ใส่ไป มีกี่ตัว ถ้ามี มันจะ return เป็น array ของ item นั้น ๆ ที่ซ้ำ
+จากนั้นใน remove_duplicate ก็ไปเรียกใช้ in_array แล้วเช็ค in_array().length !== 1 หรือไม่ ถ้าไม่เท่ากับ 1 แสดงว่ามันต้องมากกว่า ก็คือให้ลบได้เลย
